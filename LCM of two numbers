@@ -1,0 +1,13 @@
+def lcm(x,y):
+ if x>=y:
+    n=x
+ else:
+    n=y
+    while(1):
+        if(n%x==0 and n%y==0):
+            print(n)
+            break
+        n+=1
+a=int(input())
+b=int(input())
+lcm(a,b)
