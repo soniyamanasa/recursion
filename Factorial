@@ -1,0 +1,9 @@
+def fact(n):
+    i=1
+    b=1
+    while i<=n:
+        b*=i
+        i=i+1
+    print(b)
+d=int(input())
+fact(d)
